@@ -58,6 +58,7 @@ flutter:
   assets:
     - assets\download (2).jpeg
     - assets\animation_lmyhv7l6.json
+    - assets\animation_ln065erc.json
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
   # For details regarding adding assets from package dependencies, see

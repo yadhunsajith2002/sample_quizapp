@@ -34,7 +34,7 @@ class AnswerCard extends StatelessWidget {
                     : isWrongAnswer
                         ? Colors.red
                         : Colors.grey,
-                borderRadius: BorderRadius.circular(10),
+                borderRadius: BorderRadius.circular(20),
               ),
               child: Row(
                 children: [
@@ -61,9 +61,7 @@ class AnswerCard extends StatelessWidget {
                   Expanded(
                     child: Text(
                       question,
-                      style: const TextStyle(
-                        fontSize: 16,
-                      ),
+                      style: const TextStyle(fontSize: 16, color: Colors.white),
                     ),
                   ),
                 ],

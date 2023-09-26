@@ -18,13 +18,14 @@ class RectangularButton extends StatelessWidget {
         height: 50,
         width: double.infinity,
         child: Card(
-          color:
-              // onPressed != null ? Colors.green :
-              Colors.green,
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+          color: onPressed != null ? Colors.green : Colors.black,
           child: Center(
             child: Text(
               label,
               style: const TextStyle(
+                color: Colors.white,
                 letterSpacing: 2,
                 fontSize: 25,
                 fontWeight: FontWeight.w400,

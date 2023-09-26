@@ -39,10 +39,10 @@ class ResultScreen extends StatelessWidget {
               ),
               Column(
                 children: [
-                  // Text(
-                  //   score.toString(),
-                  //   style: const TextStyle(fontSize: 80),
-                  // ),
+                  Text(
+                    score.toString(),
+                    style: const TextStyle(fontSize: 80),
+                  ),
                   const SizedBox(height: 10),
                   Text(
                     '${(score / questions.length * 100).round()}%',
